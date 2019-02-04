@@ -9,8 +9,6 @@ class AndroidPlatformTools < Formula
 
   bottle :unneeded
 
-  depends_on :macos => :mountain_lion
-
   conflicts_with "android-sdk",
     :because => "the Android Platform-tools are part of the Android SDK"
 
